@@ -25,13 +25,11 @@ h5 {
 nav {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-    
 }
 nav li {
     display: inline-block;
     padding-top: 4px;
     padding-right: 20px;
-    
 }
 nav ul {
     margin-bottom: 4px;
@@ -51,22 +49,50 @@ main > p {
     margin-left: 1em;
     padding-bottom: .5em;
 }
-.more-articles {
+.more-articles{
     padding-top: .5em;
     border-top: 1px solid #eee;
     width: 100%;
     padding-bottom: 1em;
     /* border: 1px solid black; */
 }
-section {
+.more-articles > section {
     display: inline-block;
     width: 40%;
     padding-right: 1em;
-    padding-bottom: 1em;
+    padding-bottom: .2em;
     padding-left: 2em;
+}
+.bonus-articles{
+    padding-top: .5em;
+    border-top: 1px solid #eee;
+    width: 100%;
+    padding-bottom: 1em;
+    /* border: 1px solid black; */
+}
+.bonus-articles > section {
+    display: inline-block;
+    width: 25%;
+    padding-right: .75em;
+    padding-bottom: .75em;
+    padding-left: 1.8em;
+    /* border: 1px solid black; */
+}
+#bonus-h5 {
+    margin: 0;
+    padding-top: 0;
+    /* border: 1px solid black; */
 }
 section > p {
     width: 95%;
     text-align: justify;
     margin-left: 1em;
+}
+footer li {
+    display: inline-block;
+    padding-top: 2px;
+    padding-right: 20px;
+}
+footer {
+    border-top: 3px double #eee;
 }
